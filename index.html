@@ -63,36 +63,6 @@
 					</section>
 				</section>
 				<section>
-					<section>
-						<h2>Code Review</h2>
-						<h1> = </h1>
-						<h2>Pair Programming</h2>
-						<h2>???</h2>
-					</section>
-					<section data-auto-animate>
-						<h3>Was ist eigentlich Pair Programming?</h3>
-						<div class="column" style="float:left; width: 45%">
-							<p><b>Driver</b> kontrolliert den Rechner, handelt aber nicht eigenmächtig.</p>
-							<p><b>Navigator</b> gibt den Kurs in Absprache vor, aber soll nicht blind befolgt werden.</p>
-						</div>
-						<div class="column" style="float:left; width: 55%">
-						</div>
-					</section>
-					<section data-auto-animate>
-						<h3>Was ist eigentlich Pair Programming?</h3>
-						<div class="column" style="float:left; width: 45%">
-							<p><b>Driver</b> kontrolliert den Rechner, handelt aber nicht eigenmächtig.</p>
-							<p><b>Navigator</b> gibt den Kurs in Absprache vor, aber soll nicht blind befolgt werden.</p>
-						</div>
-						<div class="column" style="float:left; width: 55%">
-							<figure>
-								<img width="50%" height="50%" src="img/chronicles-of-pair-programming-2-cut.png" alt="Komik, wie es sich nicht an Rollen Driver und Navigator beim Pair Programming gehalten wird.">
-								<figcaption><a href="http://turnoff.us/geek/chronicles-of-pair-programming/">turnoff.us/geek/chronicles-of-pair-programming/</a></figcaption>
-							</figure>
-						</div>
-					</section>
-				</section>
-				<section>
 					<section data-auto-animate>
 						<h1>Gitlab</h1>
 						<img height="20%" width="20%" src="img/GitLab_Logo.svg.png" alt="Gitlab Logo">
@@ -123,6 +93,106 @@
 								<li>viele Extras enthalten</li>
 								<li><a href="https://docs.gitlab.com/ee/user/project/merge_requests/" target="_blank" rel="noopener noreferrer">offizielle Doku</a></li>
 							</ul>
+						</div>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Jira</h1>
+					</section>
+					<section>
+						<img src="img/jira-mr.png">
+					</section>
+					<section>
+						<img src="img/jira-mr-gitlab.png">
+					</section>
+					<section>
+						<h3>Einstellungen</h3>
+						<img src="img/jira-gitlab-settings-path.png">
+					</section>
+					<section>
+						<h3>Einstellungen</h3>
+						<img src="img/jira-gitlab-settings.png">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Live</h1>
+					</section>
+					<section>
+						<b>Beispiel-Repo:</b> <a href="https://srvgit01/Lemke/brownbag-session">srvgit01/Lemke/brownbag-session</a>
+						<br/>
+						<b>Beispiel-Jira-Ticket:</b> <a href="http://jiratest/browse/TE-310">TE-310</a>
+						<br/>
+						<br/>
+						<b>Branchname:</b> feature/TE-310-name
+						<br/>
+						&rightarrow; feature/TE-310-lemke
+					</section>
+					<section>
+						<img src="img/live-1.png">
+						<br/>
+						<p>Befehle vom klonen bis zum erstellen und pushen des Branches</p>
+						<p>Beim Pushen wird auch direkt der Link für einen MR dargestellt.</p>
+					</section>
+					<section>
+						<img src="img/live-2.png">
+						<br/>
+						<p>Nach dem Push wird auf der Gitlab Startseite und im Repo angeboten einen MR dafür zu erstellen</p>
+					</section>
+					<section>
+						<div class="column" style="float:left; width: 45%">
+							<img src="img/live-3.png">
+						</div>
+						<div class="column" style="float:right; width: 55%">
+							<b>Erstellungsmaske für MR</b>
+							<br/>
+							<ul>
+								<li>Quell- und Zielbracnh</li>
+								<li>Titel</li>
+								<ul>
+									<li>&quot;Draft:&quot; oder &quot;WIP:&quot; zeigen, dass der Branch noch in Arbeit ist.</li>
+								</ul>
+								<li>Zugewiesener, Meilenstein und Label</li>
+								<li>Squash und Delete Voreinstellung</li>
+							</ul>
+						</div>
+					</section>
+					<section>
+						<img src="img/live-4.png">
+						<p>Ansicht des neue angelegten MRs</p>
+					</section>
+					<section>
+						<img src="img/live-5.png">
+						<p>Quellcode angepasst</p>
+					</section>
+					<section>
+						<img src="img/live-6.png">
+						<p>Merge Request stellt Änderungen dar.</p>
+
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Code Review</h2>
+						<h1> = </h1>
+						<h2>Pair Programming</h2>
+						<h2>???</h2>
+					</section>
+					<section>
+						<img height="65%" width="65%" src="img/Monkeyuser-knows-it-do-be-like-that.jpg">
+					</section>
+					<section>
+						<h3>Was ist eigentlich Pair Programming?</h3>
+						<div class="column" style="float:left; width: 45%">
+							<p><b>Driver</b> kontrolliert den Rechner, handelt aber nicht eigenmächtig.</p>
+							<p><b>Navigator</b> gibt den Kurs in Absprache vor, aber soll nicht blind befolgt werden.</p>
+						</div>
+						<div class="column" style="float:left; width: 55%">
+							<figure>
+								<img width="50%" height="50%" src="img/chronicles-of-pair-programming-2-cut.png" alt="Komik, wie es sich nicht an Rollen Driver und Navigator beim Pair Programming gehalten wird.">
+								<figcaption><a href="http://turnoff.us/geek/chronicles-of-pair-programming/">turnoff.us/geek/chronicles-of-pair-programming/</a></figcaption>
+							</figure>
 						</div>
 					</section>
 				</section>
@@ -168,9 +238,76 @@
 						<ul>
 							<li>Regeln/automatische Vergabe</li>
 							<li>CI Integration</li>
-							<li></li>
+							<li>Übersichten und Statistiken</li>
+							<li>...</li>
 						</ul>
+						<br/>
+						<br/>
 						Vieles davon kann Gitlab auch in der kostenpflichtigen Variante (4$/21$ pro Benutzer/Monat)
+					</section>
+					<section>
+						<h2>Upsource</h2>
+						<figure>
+							<img height="40%" width="40%" src="img/upsource-icon-logo-png-transparent.png">
+							<figcaption><a href="https://www.jetbrains.com/upsource/">www.jetbrains.com/upsource</a></figcaption>
+						</figure>
+					</section>
+					<section>
+						<h2>Crucible</h2>
+						<figure>
+							<img height="40%" width="40%" src="img/crucible-logo-0935175C44-seeklogo.com.png">
+							<figcaption><a href="https://www.atlassian.com/de/software/crucible">www.atlassian.com/de/software/crucible</a></figcaption>
+						</figure>
+					</section>
+					<section>
+						<h2>Gerrit</h2>
+						<figure>
+							<img height="40%" width="40%" src="img/1200px-Gerrit_icon.svg.png">
+							<figcaption><a href="https://www.gerritcodereview.com/">www.gerritcodereview.com</a></figcaption>
+						</figure>
+					</section>
+					<section>
+						<h2>Kosten</h2>
+						<table>
+							<thead>
+							<tr>
+								<td></td>
+								<td>Upsource</td>
+								<td>Crucible</td>
+								<td>Gerrit</td>
+							</tr>
+							</thead>
+							<tr>
+								<td>25 Benutzer</td>
+								<td>1300 &euro;</td>
+								<td>~ 1400 &euro; </td>
+								<td>0 &euro;</td>
+							</tr>
+							<tr>
+								<td>50 Benutzer</td>
+								<td>2500 &euro;</td>
+								<td>~ 2570 &euro;</td>
+								<td>0 &euro;</td>
+							</tr>
+							<tr>
+								<td>100 Benutzer</td>
+								<td>4500 &euro;</td>
+								<td>~ 4660 &euro;</td>
+								<td>0 &euro;</td>
+							</tr>
+							<tr>
+								<td>250 Benutzer</td>
+								<td>9000 &euro;</td>
+								<td>~ 9320 &euro;</td>
+								<td>0 &euro;</td>
+							</tr>
+							<tr>
+								<td>500 Benutzer</td>
+								<td>12000 &euro;</td>
+								<td>~ 11180 &euro;</td>
+								<td>0 &euro;</td>
+							</tr>
+						</table>
 					</section>
 				</section>
 			</div>
